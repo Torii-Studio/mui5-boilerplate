@@ -1,15 +1,12 @@
 import * as React from 'react';
-import PropTypes from 'prop-types';
-import { withStyles } from '@mui/styles';
 
-import Box from '@mui/material/Box';
 import Link from '@mui/material/Link';
 import Typography from '@mui/material/Typography';
 
-import styles from './CopyrightStyles';
+import classes, { Root } from './CopyrightStyles';
 
-const Copyright = ({ classes }) => (
-  <Box className={classes.root}>
+const Copyright = () => (
+  <Root className={classes.root}>
     <Typography variant="body2">
       {'Copyright © '}
       <Link color="inherit" href="https://mui.com/">
@@ -18,11 +15,7 @@ const Copyright = ({ classes }) => (
       {new Date().getFullYear()}
       {'.'}
     </Typography>
-  </Box>
+  </Root>
 );
 
-Copyright.propTypes = {
-  classes: PropTypes.object.isRequired,
-};
-
-export default withStyles(styles)(Copyright);
+export default Copyright;

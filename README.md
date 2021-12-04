@@ -1,7 +1,8 @@
-# Getting Started with Create React App
+# Material UI — Migration from `JSS` to `emotion`
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project showcases a migration from JSS using the steps recommended by the [MUI team](https://mui.com/guides/migration-v4/#migrate-from-jss).
 
+- [JSS Code](https://github.com/Torii-Studio/mui5-boilerplate/tree/7698ab666bfec2dd2cbb74dabfae585b6eb81905)
 ## Available Scripts
 
 In the project directory, you can run:
