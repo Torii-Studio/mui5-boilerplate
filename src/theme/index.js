@@ -12,5 +12,12 @@ export default createTheme({
     error: {
       main: red.A400,
     },
+    black: '#212121',
+    white: '#FEFEFE',
+  },
+  typography: {
+    body1: {
+      fontSize: 16,
+    },
   },
 });
